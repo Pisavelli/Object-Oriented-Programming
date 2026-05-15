@@ -15,7 +15,7 @@ public class EstoquePresenter {
 
     public void carregarDadosIniciais() {
         estoque.adicionarProduto(new ProdutoEletronico("Notebook", 3500.00, 5, 220, 24));
-        estoque.adicionarProduto(new ProdutoInflamavel("Álcool 70$", 12.50, 40, 16.0, "Alto"));
+        estoque.adicionarProduto(new ProdutoInflamavel("Álcool 70%", 12.50, 40, 16.0, "Alto"));
         estoque.adicionarProduto(new ProdutoPerecivel("Leite", 6.90, 30, LocalDate.of(2026, 6, 15), 8.0));
         view.mostrarMensagem("Produtos carregados com sucesso.");
     }
