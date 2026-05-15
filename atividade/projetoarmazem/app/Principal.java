@@ -2,7 +2,7 @@ package atividade.projetoarmazem.app;
 
 import atividade.projetoarmazem.model.Estoque;
 import atividade.projetoarmazem.presenter.EstoquePresenter;
-import atividade.view.ConsoleEstoqueView;
+import atividade.projetoarmazem.view.ConsoleEstoqueView;
 
 public class Principal {
     public static void main(String[] args) {

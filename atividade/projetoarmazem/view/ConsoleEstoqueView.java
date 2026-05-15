@@ -3,7 +3,7 @@ package atividade.projetoarmazem.view;
 import atividade.projetoarmazem.model.Produto;
 import java.util.List;
 
-public interface ConsoleEstoqueView implements EstoqueView {
+public class ConsoleEstoqueView implements EstoqueView {
     @Override
     public void mostrarProdutos(List<Produto> produtos) {
         System.out.println("=== Produtos no Estoque ===");

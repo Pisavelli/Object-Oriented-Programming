@@ -1,5 +1,5 @@
 package atividade.projetoarmazem.model;
 
-public class Item {
+public interface Item {
     String exibirDetalhes();
 }

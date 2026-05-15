@@ -20,7 +20,7 @@ public class ProdutoPerecivel extends Produto {
     public double getTemperaturaMaxima() { return temperaturaMaxima; }
 
     @Override
-    public exibirDetalhes() {
+    public String exibirDetalhes() {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return super.exibirDetalhes() +
             String.format(" | Tipo: Perecível | Data de Validade: %s | Temperatura Máxima: %1.f°C", dataValidade.format(fmt), temperaturaMaxima);
